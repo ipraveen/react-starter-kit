@@ -7,7 +7,7 @@
     "rules": {
         "strict": 0,
         "eqeqeq": [2, "smart"],
-        "indent": 2,
+        "indent": ["error", 4, {"SwitchCase": 1}],
         "no-var": 2,
         "quotes": [2,"double"],
         "linebreak-style": [2,"unix"],
